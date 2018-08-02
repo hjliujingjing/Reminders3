@@ -36,6 +36,7 @@ private RemindersDbAdapter mDbAdapter;
         actionBar.setHomeButtonEnabled(true);
         actionBar.setDisplayShowHomeEnabled(true)
         ;
+
         actionBar.setIcon(R.mipmap.ic_launcher);
         setContentView(R.layout.activity_reminders);
         mListView=(ListView)findViewById(R.id.reminders_list_view);
